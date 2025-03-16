@@ -21,33 +21,7 @@ export default {
         normal: 'normal',
       },
       colors: {
-        'bgnav': '#002F5C',
-        'custom-light-blue': '#9FF',
-        'blue-primary-600': '#003F7D',
-        'customColor': '#99FFFF',
-        cyan: '#99FFFF',
-        white: '#FFF',
-        black: '#000',
-
-        //background
-        'blue-background': '#002F5CCC',
-        'secondary-background': '#4E95DBB2',
-        'footer-background': '#002549CC',
-
-        //blue
-        'blue-50': '#E6EEF7',
-        'blue-300': '#6698CA',
-        'blue-400': '#3376B8',
-        'blue-500': '#0054A6',
-        'blue-600': '#003F7D',
-
-        //gray
-        'gray-50': '#F0F0F0',
-        'gray-200': '#C2C2C2',
-        'gray-400': '#858585',
-        'gray-500': '#666666',
-        'gray-600': '#4D4D4D',
-        'gray-700': '#333333',
+        'white-main': 'rgba(255, 255, 255, 0.8)',
       },
       height: {
         'h-nav': '120px',
@@ -83,9 +57,7 @@ export default {
     },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-  ],
+  plugins: [require('@tailwindcss/line-clamp')],
   screens: {
     'tablet': '640px',
     // => @media (min-width: 640px) { ... }

@@ -12,8 +12,10 @@ const LayoutMain:React.FC<LayoutMainProps> = ({children}) => {
             <div className="w-full">
                 <Header />
             </div>
-            <div className="">
-                {children}
+            <div className="w-full flex justify-center">
+                <div className="w-[1142px] bg-[#00000099] p-[18px] rounded-[4px]">
+                    {children}
+                </div>
             </div>
             <div className="">
                 <Footer />

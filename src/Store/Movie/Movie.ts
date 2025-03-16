@@ -15,7 +15,8 @@ export interface Movie {
     country?: string;
     followers?: number;
     duration?: string;
-    quality?: "HD" | "Full HD" | "4K" | "SD"; // Nếu có giá trị cố định
+    quality?: "HD" | "FHD" | "4K" | "SD"; // Nếu có giá trị cố định
     language?: string;
     season?: string;
+    actor?: string[];
 }
