@@ -1,8 +1,10 @@
 export interface Movie {
     movieId?: string;
     img?: string;
+    imgPoster?: string;
     name?: string;
     originalName?: string;
+    subName?: string;
     views?: number;
     rating?: number;
     episode?: number;

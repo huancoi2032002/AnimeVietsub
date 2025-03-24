@@ -1,6 +1,6 @@
-import { PlayIcon } from "../../../../assets";
-import Button from "../../../../Components/Button/Button";
-import Banner from '../../../../assets/banned.gif';
+import { PlayIcon } from "../../assets";
+import Button from "../Button/Button";
+import Banner from '../../assets/banned.gif';
 
 
 interface ContentRightProps {
